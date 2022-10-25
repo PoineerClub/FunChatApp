@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:camera/camera.dart';
 import 'package:funchat_app/watspp/Screens/CameraView.dart';
 import 'package:funchat_app/watspp/Screens/VideoView.dart';
@@ -10,7 +9,7 @@ import 'package:path_provider/path_provider.dart';
 List<CameraDescription> cameras;
 
 class CameraScreen extends StatefulWidget {
-  CameraScreen({Key? key}) : super(key: key);
+  CameraScreen({Key key}) : super(key: key);
 
   @override
   _CameraScreenState createState() => _CameraScreenState();
